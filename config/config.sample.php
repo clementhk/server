@@ -1805,4 +1805,11 @@ $CONFIG = [
  */
 
 'login_form_autocomplete' => true,
+
+/**
+ * Allows to override the default visibility scopes for Account data.
+ * The list of properties overridable and the visibilities possible values are in
+ * OCP\Accounts\IAccountManager. Default values are in OC\Accounts\AccountManager
+ */
+'account_manager_default_property_scope' => []
 ];
